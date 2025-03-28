@@ -47,7 +47,6 @@ int main () {
 		cout << "Encoded: 0x" << hex << date.value() << " (" << dec << date.value() << ")" << endl;
 
 		// Decode back
-		// auto [decoded_year, decoded_month, decoded_day] = decode_date(encoded);
 		cout << "Decoded: " << date.year() << "-" 
 			 << date.month() << "-" 
 			 << date.day() << endl;
